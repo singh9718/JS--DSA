@@ -1,3 +1,6 @@
+// Sorting any sequence means to arrange the elements of that sequence according to some specific criterion
+
+
 // stability in sorting Alogorithm
 
 // -- criteria to analyze algorithm to check the stability of algo
@@ -18,6 +21,6 @@ arr[] = {("Anil", 50), ("Ayan", 80), ("Piyush", 50), ("Ramesh", 80)}
 // Example of Unstable Algorithm: Selection Sort, Quick Sort, Heap Sort
 
 
-// Bubble Sort: it always compares adjacent elements, it compares arr[i] with arr[i+1], if arr[i]<=arr[i+1] then it does not do anything and if arr[i]>=arr[i+1] then it swaps, i.e if two same items are together then it does not swap.
+// Bubble Sort[ time complexity is O(n2) ]: it always compares adjacent elements, it compares arr[i] with arr[i+1], if arr[i]<=arr[i+1] then it does not do anything and if arr[i]>=arr[i+1] then it swaps, i.e if two same items are together then it does not swap.
 
 // Selection Sort: It finds the maximum element in the array and then it swaps the maximum element with the last element
